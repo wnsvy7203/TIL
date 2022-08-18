@@ -4,7 +4,7 @@ def dfs(v):
 
     visited[v] = 1      # 시작점 방문 표시
     while True:
-        for w in adjList[v]: # v의 인접 정점 중 방문 안 한 정점 w가 있으면
+        for w in adjList[v]:  # v의 인접 정점 중 방문 안 한 정점 w가 있으면
             if visited[w] == 0:
                 top += 1     # push(v)
                 stack[top] = v
@@ -18,6 +18,7 @@ def dfs(v):
                 top -= 1
             else:
                 break
+
 
 V, E = map(int, input().split())
 N = V + 1
