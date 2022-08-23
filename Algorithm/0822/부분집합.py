@@ -11,7 +11,7 @@ def f(i, N):
             answer += 1     # 부분집합의 합의 10인 경우의 수
             for i in range(N):
                 if bit[i]:
-                    print(A[i], end=' ')
+                    print(A[i], end=' ',)
             print()
 
     else:
