@@ -1,5 +1,5 @@
 def bfs(v, N, t):               # v: 시작 정점, N: 마지막 정점 번호, t: 찾는 정점
-    visited = [0] * (N +1)      # visited 생성
+    visited = [0] * (N + 1)      # visited 생성
     q = []                      # 큐 생성
     q.append(v)                 # 시작점 인큐
     visited[v] = 1              # 시작점 방문 표시
@@ -13,6 +13,7 @@ def bfs(v, N, t):               # v: 시작 정점, N: 마지막 정점 번호, 
                 q.append(w)
                 visited[w] = visited[v] + 1
     return 0
+
 
 T = 10
 for _ in range(T):

@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
+
 def make_graph(graph, data):
     for i in range(0, len(data), 2):
         v1, v2 = data[i], data[i+1]
