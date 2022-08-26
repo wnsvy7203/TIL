@@ -1,3 +1,7 @@
+A = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+bit = [0] * 10
+answer = 0
+
 def f(i, N):
     global answer
     if i == N:
@@ -25,8 +29,5 @@ def f(i, N):
         # f(i+1, N)
 
 
-A = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-bit = [0] * 10
-answer = 0
 f(0, 10)
 print(answer)
