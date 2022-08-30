@@ -2,7 +2,7 @@
 
 K = int(input())
 
-Width = {}
+Width = []
 Height = []
 for _ in range(6):
     D, L = map(int, input().split())
