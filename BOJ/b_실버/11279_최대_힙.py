@@ -1,3 +1,6 @@
+# Silver 2
+# 160ms
+
 import sys
 import heapq
 
