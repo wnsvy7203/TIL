@@ -67,7 +67,6 @@ for C in range(1, T+1):
                         if output not in pwd:
                             pwd.append(output)
                         break
-    print(pwd)
 
     for i in range(len(pwd)):
         num = int(pwd[i], 16)
