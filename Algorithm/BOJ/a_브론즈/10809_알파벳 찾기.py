@@ -1,4 +1,4 @@
-# Bronze 5
+# bronze 5
 # 76ms
 
 S = input()

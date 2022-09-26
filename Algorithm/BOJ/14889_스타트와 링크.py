@@ -1,4 +1,4 @@
-# Silver 2
+# silver 2
 
 
 N = int(input())    # 4 <= N <= 20, N % 2 = 0

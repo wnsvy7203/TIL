@@ -1,4 +1,4 @@
-# Bronze 2
+# bronze 2
 # 68ms
 
 A, B = map(int, input().split())

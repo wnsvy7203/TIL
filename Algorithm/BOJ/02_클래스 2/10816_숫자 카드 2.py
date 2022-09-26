@@ -1,4 +1,4 @@
-# Silver 4
+# silver 4
 # 1528ms
 
 from bisect import bisect_left, bisect_right

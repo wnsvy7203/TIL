@@ -1,3 +1,6 @@
+# silver 2
+# 108ms
+
 import sys
 
 K, N = map(int, sys.stdin.readline().split())

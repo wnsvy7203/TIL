@@ -1,4 +1,4 @@
-# Silver 4
+# silver 4
 # 92ms
 
 N, M = map(int, input().split())

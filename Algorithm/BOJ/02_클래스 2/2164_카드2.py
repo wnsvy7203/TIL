@@ -1,4 +1,4 @@
-# Silver 4
+# silver 4
 # 228ms
 
 from collections import deque

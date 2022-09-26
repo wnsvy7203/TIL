@@ -1,4 +1,4 @@
-# Silver 5
+# silver 5
 # 112ms
 
 import sys

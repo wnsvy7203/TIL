@@ -1,4 +1,4 @@
-# Bronze 1
+# bronze 1
 # 88ms
 
 T = int(input())

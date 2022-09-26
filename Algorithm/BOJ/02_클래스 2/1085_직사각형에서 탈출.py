@@ -1,4 +1,4 @@
-# Bronze 3
+# bronze 3
 # 76ms
 
 x, y, w, h = map(int, input().split())

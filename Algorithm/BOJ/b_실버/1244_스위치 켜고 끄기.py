@@ -1,4 +1,4 @@
-# Silver 4
+# silver 4
 # 76ms
 
 # 1은 켜짐, 0은 꺼짐

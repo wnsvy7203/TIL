@@ -1,4 +1,4 @@
-# Silver 5
+# silver 5
 # 72ms
 
 A, B, V = map(int, input().split())

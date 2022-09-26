@@ -1,4 +1,4 @@
-# Bronze 1
+# bronze 1
 # 72ms
 
 while True:

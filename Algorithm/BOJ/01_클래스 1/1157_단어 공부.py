@@ -1,4 +1,4 @@
-# Bronze 1
+# bronze 1
 # 324ms
 
 A = input().upper()               # 소문자/대문자 구분 없음

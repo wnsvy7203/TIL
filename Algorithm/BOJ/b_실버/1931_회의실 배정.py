@@ -1,4 +1,4 @@
-# Silver 1
+# silver 1
 # 384ms
 import sys
 from collections import deque

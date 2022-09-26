@@ -1,4 +1,4 @@
-# Silver 3
+# silver 3
 # 1452ms
 
 from collections import defaultdict

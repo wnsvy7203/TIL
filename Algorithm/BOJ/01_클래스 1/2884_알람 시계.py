@@ -1,4 +1,4 @@
-# Bronze 3
+# bronze 3
 # 68ms
 
 H, M = map(int, input().split())    # 0 <= H <= 23, 0 <= M <= 59

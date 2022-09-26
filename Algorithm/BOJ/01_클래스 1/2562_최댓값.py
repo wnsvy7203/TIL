@@ -1,4 +1,4 @@
-# Bronze 3
+# bronze 3
 # 68ms
 
 arr = [int(input()) for _ in range(9)]

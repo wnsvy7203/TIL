@@ -1,4 +1,4 @@
-# Silver 5
+# silver 5
 # 4388ms
 
 N = int(input())            # 1 <= N <= 100000

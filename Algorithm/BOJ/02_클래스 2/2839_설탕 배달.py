@@ -1,4 +1,4 @@
-# Silver 4
+# silver 4
 # 72ms
 
 N = int(input())  # N 킬로그램

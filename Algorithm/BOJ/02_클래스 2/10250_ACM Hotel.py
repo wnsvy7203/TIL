@@ -1,4 +1,4 @@
-# Bronze 2
+# bronze 2
 # 140ms
 
 for _ in range(int(input())):

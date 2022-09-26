@@ -1,4 +1,4 @@
-# Platinum 5
+# platinum 5
 
 import sys
 

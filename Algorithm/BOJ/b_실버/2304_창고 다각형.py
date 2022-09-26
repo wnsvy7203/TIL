@@ -1,4 +1,4 @@
-# Silver 2
+# silver 2
 # 132ms
 
 N = int(input())

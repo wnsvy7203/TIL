@@ -1,47 +1,47 @@
-# silver 2
-# 88ms
-
 import sys
 
 
 def dfs(v):
-    visited = [0] * (N+1)
-    stk = [0] * (N+1)
+    visited = [0 for _ in range(N+1)]
+    visited[v] = 1
     top = -1
     dfs_list = [v]
 
-    visited[v] = 1
+    stk = [0 for _ in range(N+1)]
     while True:
         for w in adjList[v]:
-            if visited[w] == 0:
+            if not visited[w]:
                 top += 1
                 stk[top] = v
-                v = w
-                dfs_list.append(v)
                 visited[w] = 1
+                dfs_list.append(w)
+                v = w
                 break
         else:
-            if top != -1:
+            while top > -1:
                 v = stk[top]
                 top -= 1
-            else:
+            if top == -1:
                 break
+
     return dfs_list
 
 
-def bfs(v):
-    visited = [0] * (N+1)
-    queue = [v]
-    visited[v] = 1
+def bfs(root):
+    visited = [0 for _ in range(N+1)]
+    visited[root] = 1
 
-    bfs_list = []
+    bfs_list = [root]
+
+    queue = [root]
     while queue:
         v = queue.pop(0)
-        bfs_list.append(v)
         for w in adjList[v]:
-            if visited[w] == 0:
-                queue.append(w)
+            if not visited[w]:
                 visited[w] = 1
+                queue.append(w)
+                bfs_list.append(w)
+
     return bfs_list
 
 
@@ -55,6 +55,7 @@ for i in range(M):
 
 for i in adjList:
     i.sort()
+
 
 print(*dfs(V))
 print(*bfs(V))

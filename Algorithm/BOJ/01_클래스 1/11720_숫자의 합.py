@@ -1,4 +1,4 @@
-# Bronze 4
+# bronze 4
 # 72ms
 
 N = int(input())
