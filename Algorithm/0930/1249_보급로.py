@@ -1,5 +1,5 @@
-# D3
-# 123ms
+# D4
+# 292ms
 
 import heapq
 
@@ -20,20 +20,17 @@ def dijkstra():
             nc = c + dx[d]
 
             if 0 <= nr < N and 0 <= nc < N:
-                cnt = 1
-                if fuel[nr][nc] > fuel[r][c]:
-                    cnt += (fuel[nr][nc] - fuel[r][c])
-                cost = tmp + cnt
-                if cost < visited[nr][nc]:
-                    visited[nr][nc] = cost
-                    heapq.heappush(heap, (cost, nr, nc))
+                tmp = visited[r][c] + maps[nr][nc]
+                if tmp < visited[nr][nc]:
+                    visited[nr][nc] = tmp
+                    heapq.heappush(heap, (visited[nr][nc], nr, nc))
 
 
 T = int(input())
 
 for C in range(1, T+1):
     N = int(input())
-    fuel = [list(map(int, input().split())) for _ in range(N)]
+    maps = [list(map(int, input())) for _ in range(N)]
     visited = [[float('INF')] * N for _ in range(N)]
     dijkstra()
 
