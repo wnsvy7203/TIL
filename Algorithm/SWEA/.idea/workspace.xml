@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87220794-7fe4-4e75-b393-cc056f415cea" name="디폴트 변경 목록" comment="">
+      <change beforePath="$PROJECT_DIR$/../0820/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0820/.idea/0820.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0820/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0820/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0820/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0820/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/.idea/BOJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/10818_최소, 최대.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/1152_단어의 개수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/1157_단어 공부.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/11720_숫자의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/1546_평균.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/2439_별 찍기 - 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/2562_최댓값.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/2577_숫자의 개수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/2675_문자열 반복.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/2742_기찍 N.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/2884_알람 시계.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/2908_상수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/2920_음계.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/3052_나머지.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/01_클래스 1/8958_OX퀴즈.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/10250_ACM_Hotel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/10773_제로.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/10814_나이순 정렬.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/10816_숫자 카드 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/10828_스택.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/10845_큐.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/1085_직사각형에서 탈출.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/10866_덱.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/10989_수 정렬하기 3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/11050_이항계수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/11650_좌표 정렬하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/11651_좌표 정렬하기 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/1181_단어 정렬.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/11866_요세푸스 문제 0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/1259_팰린드롬수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/15829_Hashing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/1920_수 찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/1978_소수 찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/2164_카드2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/2231_분해합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/2292_벌집.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/2609_최대공약수와 최소공배수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/2751_수 정렬하기 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/2775_부녀회장이_될테야.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/2798_블랙잭.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/2839_설탕 배달.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/2869_달팽이는 올라가고 싶다.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/4153_직각삼각형.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/4949_균형잡힌 세상.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/02_클래스 2/7568_덩치.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/1436_영화감독_숌.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/14889_스타트와_링크.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/1517_버블 소트.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/1929_소수_구하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/2477_참외밭.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/a_브론즈/10809_알파벳 찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/a_브론즈/2309_일곱 난쟁이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/.idea/02_실버.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/1051_숫자 정사각형.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/11279_최대_힙.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/11286_절댓값_힙.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/1244_스위치 켜고 끄기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/13116_30번.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/1417_국회의원 선거.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/1927_최소_힙.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/1978_소수 찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/21920_서로소 평균.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/b_실버/2304_창고 다각형.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BOJ/c_골드/2116_주사위 쌓기.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2EpMDqBlgDTmc9kZCI07feznr0F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.5688">
+    <configuration name="1238" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1238.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1486" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1486.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1861" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1861.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5688" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5688.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.5688" />
+        <item itemvalue="Python.1486" />
+        <item itemvalue="Python.1861" />
+        <item itemvalue="Python.1238" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="87220794-7fe4-4e75-b393-cc056f415cea" name="디폴트 변경 목록" comment="" />
+      <created>1663287957234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663287957234</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1861.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1861.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
