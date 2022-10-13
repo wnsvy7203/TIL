@@ -11,9 +11,9 @@
       <form action="{% url 'accounts:follow' person.pk %}" method="POST">
         {% csrf_token %}
         {% if request.user in person.followers.all %}
-            <input type="submit" value="언팔로우">
+            <input type="submit" value="Unfollow">
         {% else %}
-            <input type="submit" value="팔로우">
+            <input type="submit" value="Follow">
         {% endif %}
       </form>
     {% endif %}

@@ -13,13 +13,16 @@
     <p>글 번호 : {{ article.pk }}</p>
     <p>제목 : {{ article.title }}</p>
     <p>내용 : {{ article.content }}</p>
+    <p>좋아요 개수: {{ article.like_users.all|length }}</p> 
     <div>
       <form action="{% url 'articles:likes' article.pk %}" method="POST">
         {% csrf_token %}
         {% if request.user in article.like_users.all %}
           <input type="submit" value="좋아요 취소">
+          <i class="fa-solid fa-heart" style="color:red"></i>
         {% else %}
           <input type="submit" value="좋아요">
+          <i class="fa-solid fa-heart"></i>
         {% endif %}
       </form>
     </div>
