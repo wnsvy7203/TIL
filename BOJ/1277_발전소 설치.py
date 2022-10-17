@@ -6,7 +6,7 @@ M = float(sys.stdin.readline())
 graph = [[] for _ in range(N)]
 
 for _ in range(N):
-
+    pass
 
 for _ in range(W):
     X, Y = map(int, sys.stdin.readline())
