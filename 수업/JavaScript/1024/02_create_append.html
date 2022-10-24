@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div></div>
+  
+  <script>
+    // 태그 생성
+    const h1Tag = document.createElement('hi')
+
+    // 태그 안에 컨텐츠를 작성하고
+    h1Tag.innerText = 'DOM 조작'
+
+    // 부모 div 태그를 가져와서
+    divTag = document.querySelector('div')
+
+    // 자식을 더한다.
+    divTag.appendChild(h1Tag)
+
+    // 삭제까지
+    // divTag.removeChild(h1Tag)
+  </script>
+</body>
+</html>

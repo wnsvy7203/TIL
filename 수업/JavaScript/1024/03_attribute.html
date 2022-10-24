@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .red { 
+      color: red;
+    }
+    .blue {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="red">안녕하세요</h1>
+  <div></div>
+
+  <script>
+    // a tag 생성 및 컨텐츠 추가
+    const aTag = document.createElement('a')
+    aTag.innerText = '구글'
+
+    // div 태그의 자식 태그로 a 태그 추가
+    const div = document.querySelector('div')
+    div.appendChild(aTag)
+    // div.append(aTag)해도 작동은 한다.
+
+    // a 태그의 href 속성 추가
+    aTag.setAttribute('href', 'https://google.com')
+    // aTag.href = 'https://google.com' 도 가능하다.
+    console.log(aTag.getAttribute('href'))
+
+    // h1 tag 선택 및 클래스 목록 조회
+    const h1 = document.querySelector('h1')
+    console.log(h1.classList)
+
+    // 클래스가 존재한다면 제거하고 false 반환
+    // 존재하지 않으면 클래스를 추가하고 true를 반환
+    h1.classList.toggle('blue')
+    console.log(h1.classList)
+  </script>
+</body>
+</html>
