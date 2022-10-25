@@ -1,0 +1,55 @@
+<!--세가지 색이 있는 네모 박스를 만들고 각 색상의 박스를 선택하면 숫자의 색을 바꾸자 -->
+<!-- 힌트 -->
+  <!-- 1. div 태그로 박스 만들기 -->
+  <!-- 2. style 태그로 박스의 크기, 색상, 배치 지정하기 -->
+  <!-- 3. js로 각 색상의 박스를 클릭하면 숫자의 색 바꾸기 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <style>
+    #number {
+        font-size: 100px;
+      }
+    /* 2. 박스 스타일 및 레이아웃 지정 */
+
+
+    </style>
+  </head>
+
+  <body>
+    <div id=number>0</div>
+    <button id="minus">-</button>
+    <button id="plus">+</button>
+    <hr>
+    
+    <!-- 1. div 태그로 박스 만들기 -->
+    <!-- 코드 작성 -->
+    
+    <script>
+    
+    let number = document.querySelector('#number')
+    const plusBtn = document.querySelector('#plus')
+    const minusBtn = document.querySelector('#minus')
+
+    plusBtn.addEventListener('click', function() {
+        //number.innerText = parseInt(number.innerText) + 1
+        number.innerText++
+    })
+
+    minusBtn.addEventListener('click', function() {
+        number.innerText--
+    })
+
+    //3. 색상의 박스를 누르면 숫자의 색 바꾸기
+    // 코드 작성
+
+
+    </script>
+  </body>
+</html>

@@ -1,20 +1,24 @@
+# gold 4
+# 2980ms
+
 import sys
 
 
 def find_tree(x):
     flag = True
-    visited[x] = 1
 
     stk = [x]
     while stk:
         v = stk.pop()
 
+        if visited[v]:
+            flag = False
+
+        visited[v] = 1
         for w in graph[v]:
             if not visited[w]:
-                visited[w] = 1
                 stk.append(w)
-            else:
-                flag = False
+
     return int(flag)
 
 
