@@ -47,9 +47,9 @@ def detail(request, pk):
 
 @require_POST
 def delete(request, pk):
+    article = Article.objects.get(pk=pk)
     if request.user.is_authenticated:
         if request.user == article.user:
-            article = Article.objects.get(pk=pk)
             article.delete()
             return redirect('articles:index')
     return redirect('articles:detail', article.pk)
