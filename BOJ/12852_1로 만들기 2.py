@@ -1,7 +1,5 @@
-import sys
-
-N = int(sys.stdin.readline())
-res = [N]
+N = int(input())
+dp = [N]
 cnt = 0
 while N != 1:
     if not N % 3:
