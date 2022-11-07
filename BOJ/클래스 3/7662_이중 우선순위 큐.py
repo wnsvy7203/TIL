@@ -1,3 +1,6 @@
+# gold 4
+# 8428ms
+
 import sys
 import heapq
 
