@@ -19,7 +19,7 @@ channel = 100
 nums = [100000, 10000, 1000, 100, 10]
 
 for i in nums:
-
+    pass
 
 
 
