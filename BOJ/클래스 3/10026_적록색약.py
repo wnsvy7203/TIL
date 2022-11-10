@@ -1,19 +1,23 @@
 # gold 5
-#
+# 120ms
+
+# dfs 는 되는데 bfs 는 안 되는 이유는 뭐지?
 
 import sys
-from collections import deque
 
 dr = [-1, 1, 0, 0]
 dc = [0, 0, -1, 1]
 
 
 def color(y, x):
-    saved = grid[y][x]
-    que = deque([(y, x)])
+    global cnt1
+    cnt1 += 1
 
-    while que:
-        r, c = que.popleft()
+    saved = grid[y][x]
+    stk = [(y, x)]
+
+    while stk:
+        r, c = stk.pop()
         visited1[r][c] = 1
 
         for d in range(4):
@@ -22,19 +26,22 @@ def color(y, x):
 
             if 0 <= nr < N and 0 <= nc < N:
                 if grid[nr][nc] == saved and not visited1[nr][nc]:
-                    que.append((nr, nc))
+                    stk.append((nr, nc))
 
 
 def color_weak(y, x):
+    global cnt2
+    cnt2 += 1
+
     if grid[y][x] == 'R' or grid[y][x] == 'G':
         saved = ('R', 'G')
     else:
         saved = grid[y][x]
 
-    que = deque([(y, x)])
+    stk = [(y, x)]
 
-    while que:
-        r, c = que.popleft()
+    while stk:
+        r, c = stk.pop()
         visited2[r][c] = 1
 
         for d in range(4):
@@ -43,9 +50,9 @@ def color_weak(y, x):
 
             if 0 <= nr < N and 0 <= nc < N and not visited2[nr][nc]:
                 if type(saved) == str and grid[nr][nc] == saved:
-                    que.append((nr, nc))
+                    stk.append((nr, nc))
                 elif type(saved) == tuple and grid[nr][nc] in saved:
-                    que.append((nr, nc))
+                    stk.append((nr, nc))
 
 
 N = int(sys.stdin.readline())
@@ -61,10 +68,8 @@ for i in range(N):
     for j in range(N):
         if not visited1[i][j]:
             color(i, j)
-            cnt1 += 1
 
         if not visited2[i][j]:
             color_weak(i, j)
-            cnt2 += 1
 
 print(cnt1, cnt2)
