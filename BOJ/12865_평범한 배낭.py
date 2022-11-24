@@ -1,14 +1,11 @@
-import sys
+print('''    8888888888  888    88888
+   88     88   88 88   88  88
+    8888  88  88   88  88888
+       88 88 888888888 88   88
+88888888  88 88     88 88    888888
 
-N, K = map(int, sys.stdin.readline().split())
-
-dp = [0 for _ in range(100001)]
-val = []
-
-for _ in range(N):
-    val.append(tuple(map(int, sys.stdin.readline().split())))
-
-val.sort()
-
-for i in range(K):
-
+88  88  88   888    88888    888888
+88  88  88  88 88   88  88  88
+88 8888 88 88   88  88888    8888
+ 888  888 888888888 88  88      88
+  88  88  88     88 88   88888888''')
