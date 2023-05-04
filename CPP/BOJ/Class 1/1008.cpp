@@ -1,0 +1,15 @@
+// Bronze 5
+// A/B
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    double a, b;
+    
+    cin >> a >> b;
+    
+    cout.precision(15);
+	cout << fixed << a / b << endl;
+}
