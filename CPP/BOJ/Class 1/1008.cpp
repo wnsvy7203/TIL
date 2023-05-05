@@ -1,5 +1,4 @@
-// Bronze 5
-// A/B
+// Bronze 5. A/B
 
 #include <iostream>
 
