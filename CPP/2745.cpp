@@ -1,4 +1,4 @@
-// Bronze 2. Arithmetic Conversion
+// Bronze 2. Radix Conversion
 
 #include <iostream>
 #include <string>
@@ -20,11 +20,11 @@ int main()
     {
         if (isdigit(N[i]) == 0)
         {
-            sum += ((N[i] - 55) * pow(B, i));
+            sum += ((N[i] - 55) * pow(B, N.length()-1-i));
         }
         else
         {
-            sum += ((N[i] - 48) * pow(B, i));
+            sum += ((N[i] - 48) * pow(B, N.length()-1-i));
         }
     }
     
