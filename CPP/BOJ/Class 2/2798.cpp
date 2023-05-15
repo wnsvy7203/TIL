@@ -1,4 +1,5 @@
 // Bronze 2. Blackjack
+// 24ms
 
 #include <iostream>
 #include <vector>
@@ -12,14 +13,12 @@ int main()
 
     cin >> N >> M;
 
-    vector<int> v(N);
-    vector<int> temp(N);
+    vector<int> nums(N);
     vector<int> visit(N);
-    vector<int> res(N);
 
     for (int i = 0; i < N; i++)
     {
-        cin >> v[i];
+        cin >> nums[i];
     }
 
     for (int i = 0; i < N-3; i++)
@@ -31,34 +30,27 @@ int main()
         visit[i] = 1;
     }
 
-    sort(v.begin(), v.end());
-
-    int sum = 0;
+    vector<int> res;
 
     do
     {
+        int sum = 0;
+
         for (int i = 0; i < N; i++)
         {
             if (visit[i] != 0)
             {
-                sum += v[i];
+                sum += nums[i];
             }
         }
-
-        temp.push_back(abs(sum-M));
-        res.push_back(sum);
-        
-    } while(next_permutation(visit.begin(), visit.end()));
-
-    int min = *min_element(temp.begin(), temp.end());
-
-    for (int i = 0; i < N; i++)
-    {
-        if (temp[i] == min)
+        if (sum <= M)
         {
-            cout << i;
+            res.push_back(sum);
         }
     }
+    while(next_permutation(visit.begin(), visit.end()));
 
-    cout << res[min];
+    int max = *max_element(res.begin(), res.end());
+
+    cout << max;
 }
