@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int n;
+    unsigned int n;
     
     cin >> n;
 

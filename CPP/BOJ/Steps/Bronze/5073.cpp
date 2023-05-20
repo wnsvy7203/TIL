@@ -1,3 +1,5 @@
+// Bronze 3. Triangle and Three Legs
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -23,14 +25,9 @@ int main()
         nums[1] = b;
         nums[2] = c;
         
-        for (int i = 0; i < nums.size(); i++)
-        {
-            cout << nums[i];
-        }
-
         sort(nums.begin(), nums.end());
         
-        if (nums[0] + nums[1] > nums[2])
+        if (nums[0] + nums[1] <= nums[2])
         {
             cout << "Invalid" << '\n';
         }
