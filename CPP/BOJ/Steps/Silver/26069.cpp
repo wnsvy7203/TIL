@@ -13,6 +13,8 @@ int main()
 
     set<string> dance;
 
+    dance.insert("ChongChong");
+
     int idx = 0;
 
     for (int i = 0; i < N; i++)
@@ -21,13 +23,13 @@ int main()
 
         cin >> A >> B;
 
-        if (A == "ChongChong" || B == "ChongChong")
-            idx = i;
-            dance.insert(A, B);
-        
-        if (i > idx)
+        if (dance.find(A) != dance.end())
         {
-            
+            dance.insert(B);
+        }
+        else if (dance.find(B) != dance.end())
+        {
+            dance.insert(A);
         }
     }
 
