@@ -3,7 +3,6 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <vector>
 #include <algorithm>
 
 using namespace std;
@@ -20,39 +19,48 @@ int main()
 
         cin >> N >> M;
 
-        queue<vector<int>> doc;
+        queue<pair<int, int>> docx;
+        vector<pair<int, int>> doc;
 
         for (int i = 0; i < N; i++)
         {
             int add;
             cin >> add;
 
-            vector<int> num(2, 0);
-            num[0] = i;
-            num[1] = add;
+            pair<int, int> num;
+            num.first = add;
+            num.second = i;
 
-            doc.push(num);
+            docx.push(num);
+            doc.push_back(num);
         }
 
-        int max = 9;
+        sort(doc.begin(), doc.end(), greater<>());
 
-        int cnt = 1;
+        int cnt = 0;
 
         while (1)
         {
-            if (doc.front()[0] == max)
-                doc.pop();
+            if (doc[0].first == docx.front().first)
+            {
+                cnt++;
+                if (docx.front().second == M)
+                {
+                    cout << cnt << '\n';
+                    break;
+                }
+                else
+                    docx.pop();
+            }
             else
             {
-                vector<int> front = doc.front();
-                doc.pop();
-                doc.push(front);
+                pair<int, int> temp;
+
+                temp = docx.front();
+
+                docx.pop();
+                docx.push(temp);
             }
-
-            max--;
         }
-        
-
-
     }
 }
