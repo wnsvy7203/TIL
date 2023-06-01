@@ -1,20 +1,13 @@
 #include <iostream>
+#include <vector>
+#include <numeric>
+#include <cmath>
 
 using namespace std;
 
 int main()
 {
-    string str = "push 123";
+    vector<int> nums = { -1, -2, -3, -1, -2 };
 
-    int idx = 0;
-
-    for (int i = 0; i < str.length(); i++)
-    {
-        if (str[i] == ' ')
-        {
-            idx = i + 1;
-        }
-    }
-
-    cout << stoi(str.substr(idx, 7));
+    cout << accumulate(nums.begin(), nums.begin()+5, 0);
 }
