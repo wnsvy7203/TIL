@@ -1,4 +1,5 @@
 // Silver 3. String Set
+// 92ms
 
 #include <iostream>
 #include <set>
@@ -34,6 +35,8 @@ int main()
         string str;
 
         cin >> str;
+
+        cnt += S.count(str);
     }
     
     cout << cnt;
