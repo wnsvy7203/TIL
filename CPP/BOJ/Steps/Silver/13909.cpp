@@ -1,8 +1,5 @@
 // Silver 5. Windows Closing
 
-// 약수가 홀수 개 일 때만 열리네
-// 제곱수
-
 #include <iostream>
 #include <cmath>
 
