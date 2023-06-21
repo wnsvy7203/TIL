@@ -1,4 +1,5 @@
 // Silver 3. Making Triangle
+// 176ms
 
 #include <iostream>
 #include <vector>
@@ -13,23 +14,23 @@ int main()
     cout.tie(0);
 
     int N;
-    int L[1000001] = {0, };
-
     cin >> N;
+    
+    vector<int> L(N, 0);
 
     for (int i = 0; i < N; i++)
         cin >> L[i];
     
-    sort(L, L+N, greater<>());
+    sort(L.begin(), L.end(), greater<>());
 
-    for (int i = N-3; i >= 0; i++)
+    for (int i = 0; i <= N-3; i++)
     {
         if (L[i] < L[i+1] + L[i+2])
         {
             cout << L[i] + L[i+1] + L[i+2];
-            break;
+            return 0;
         }
-        else if (i == N-3)
-            cout << -1;
-    }    
+    }
+
+    cout << -1;
 }
