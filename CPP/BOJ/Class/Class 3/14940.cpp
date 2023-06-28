@@ -1,27 +1,27 @@
-// Silver 1. Easy Fastest Way
-// 84ms
+// Silver 1. Easy Shortest Distance
+// 44ms
 
 #include <iostream>
 #include <queue>
 
 using namespace std;
 
-int land[1001][1001] = {0, };
-int visited[1001][1001] = {0, };
+int n, m;
+int board[1000][1000];
+int visited[1000][1000];
 
 int dr[4] = {-1, 1, 0, 0};
 int dc[4] = {0, 0, -1, 1};
-int n, m;
 
-queue<pair<int, int>> que;
-
-void bfs()
+void bfs(int i, int j)
 {
+    queue<pair<int, int>> que;
+    que.push({i, j});
+    
     while (!que.empty())
     {
         int r = que.front().first;
         int c = que.front().second;
-
         que.pop();
 
         for (int d = 0; d < 4; d++)
@@ -31,11 +31,11 @@ void bfs()
 
             if (nr < 0 || nr >= n || nc < 0 || nc >= m)
                 continue;
-            
-            if (!visited[nr][nc] && land[nr][nc])
+
+            if (!visited[nr][nc] && board[nr][nc] == 1)
             {
                 visited[nr][nc] = visited[r][c] + 1;
-                que.push(make_pair(nr, nc));
+                que.push({nr, nc});
             }
         }
     }
@@ -43,31 +43,29 @@ void bfs()
 
 int main()
 {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+
     cin >> n >> m;
 
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
-            cin >> land[i][j];
-
+            cin >> board[i][j];
+    
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
-            if (land[i][j] == 2)
-            {
-                que.push(make_pair(i, j));
-                visited[i][j] = 1;
-            }
-
-    bfs();
-
+            if (board[i][j] == 2)
+                bfs(i, j);
+    
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
-            if (land[i][j] == 1 && !visited[i][j])
+            if (board[i][j] == 1 && !visited[i][j])
                 cout << -1 << ' ';
-            else if (!land[i][j])
-                cout << 0 << ' ';
             else
-                cout << visited[i][j]-1 << ' ';
+                cout << visited[i][j] << ' ';
+
         cout << '\n';
     }
 }
