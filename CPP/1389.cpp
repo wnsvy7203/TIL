@@ -5,12 +5,14 @@
 #include <numeric>
 #include <algorithm>
 #include <queue>
+#define MAX 500000
 
 using namespace std;
 
 int N, M;
+int visited[101];
+
 vector<int> graph[101];
-vector<int> visited(101, 0);
 
 int bfs(int n)
 {
@@ -33,7 +35,7 @@ int bfs(int n)
         }
     }
 
-    return accumulate(visited.begin(), visited.end(), 0) - N - visited[n];
+    return accumulate(visited, visited+N, 0) - N - visited[n];
 }
 
 int main()
@@ -54,10 +56,14 @@ int main()
         graph[v].push_back(u);
     }
 
-    vector<int> find;
+    int min = MAX;
 
     for (int i = 1; i <= N; i++)
-        find.push_back(bfs(i));
+    {
+        int tmp = bfs(i);
+        if (min > tmp)
+            min = tmp;
+    }
 
-    cout << *min_element(find.begin(), find.end());
+    cout << min;
 }

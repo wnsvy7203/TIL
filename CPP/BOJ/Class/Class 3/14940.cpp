@@ -1,4 +1,4 @@
-// Silver 1. Easy Shortest Distance
+// Silver 1. Easiest Shortest Distance
 // 44ms
 
 #include <iostream>

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+/* 스크롤을 부드럽게 설정합니다. */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 기본 글꼴 설정 */
+body {
+  font-family: 'Nunito', sans-serif;
+  /* 창 크기가 줄어도 최소 1280px의 너비를 유지합니다. 
+  디바이스의 화면 크기가 더 작다면 스크롤이 생성됩니다. */
+  min-width: 1280px;
+  color: #333333;
+}
+
+.font {
+  font-family: 'Merienda One';
+  font-size: 1em;
+  padding: 3px;
+}
+
+.nav-direction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.img-style {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 1000px;
+  margin-bottom: 70px;
+}
+
+.section-style {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 70px;
+}
+
+.section-img {
+  float: left;
+  width: 35%;
+  height: 30%px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+
+.section-header-font {
+  text-align: center;
+  font-family: 'Merienda One';
+  font-size: 40px;
+  padding: 3px;
+}
+
+.section-font {
+  font-size: 25px;
+  padding: 3px;
+}
+
+.contact-direction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top : 50px;
+  margin-bottom: 70px;
+}
+
+.contact-img {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+
+.more-direction {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.more-img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.more-font {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
