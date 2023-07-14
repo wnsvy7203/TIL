@@ -5,37 +5,36 @@
 #include <numeric>
 #include <algorithm>
 #include <queue>
-#define MAX 500000
+#define MAX 101
 
 using namespace std;
 
 int N, M;
-int visited[101];
-
 vector<int> graph[101];
 
 int bfs(int n)
 {
+    int visited[101];
+    fill_n(visited, 101, -1);
+
     queue<int> que;
-    visited[n] = 1;
+    visited[n] = 0;
     que.push(n);
 
-    while (!que.empty())
+    while(!que.empty())
     {
-        int front = que.front();
+        int next = que.front();
         que.pop();
 
-        for (int i = 0; i < graph[front].size(); i++)
-        {
-            if (!visited[graph[front][i]])
+        for (int i = 0; i < graph[next].size(); i++)
+            if (visited[graph[next][i]] == -1)
             {
-                visited[graph[front][i]] == visited[front] + 1;
-                que.push(graph[front][i]);
+                visited[graph[next][i]] = visited[next] + 1;
+                que.push(graph[next][i]);
             }
-        }
     }
 
-    return accumulate(visited, visited+N, 0) - N - visited[n];
+    return accumulate(visited+1, visited+N+1, 0);
 }
 
 int main()
@@ -56,14 +55,19 @@ int main()
         graph[v].push_back(u);
     }
 
-    int min = MAX;
+    int res = 10001;
+    int ans = 0;
 
     for (int i = 1; i <= N; i++)
     {
         int tmp = bfs(i);
-        if (min > tmp)
-            min = tmp;
+
+        if (res > tmp)
+        {
+            res = tmp;
+            ans = i;
+        }
     }
 
-    cout << min;
+    cout << ans;
 }

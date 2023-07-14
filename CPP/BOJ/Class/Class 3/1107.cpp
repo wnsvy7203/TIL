@@ -1,4 +1,5 @@
 // Gold 5. Remote Controller
+// 24ms
 
 #include <iostream>
 #include <string>
@@ -10,6 +11,9 @@ int err[10] = {0, };
 
 int main()
 {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+
     cin >> N >> M;
 
     for (int i = 0; i < M; i++)
@@ -26,13 +30,14 @@ int main()
     for (int i = 0; i < 1000001; i++)
     {
         string str = to_string(i);
+        int len = str.size();
 
-        for (int j = 0; j < str.size(); j++)
+        for (int j = 0; j < len; j++)
         {
-            if (err[str[i] - 48] == 1)
+            if (err[str[j] - 48] == 1)
                 break;
             else if (j == str.size()-1)
-                btn = min(btn, abs(i - N) + str.size());
+                btn = min(btn, abs(i - N) + len);
         }
     }
 

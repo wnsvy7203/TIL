@@ -5,13 +5,15 @@
 
 using namespace std;
 
+int bottle[10000001] = {1, };
+
 int main()
 {
     int N, K;
+    // N <= 10,000,000
+    // K <= 1,000
 
     cin >> N >> K;
-
-    vector<int> bottle(N, 1);
 
     int n = N;
 
