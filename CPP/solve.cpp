@@ -1,87 +1,70 @@
-//
+// 36ms
 
 #include <iostream>
 #include <queue>
-#include <stack>
+#include <cstring>
 
 using namespace std;
 
-int N;
-queue<int> que;
-stack<int> stk;
+int n, m, q;
+vector<int> graph[1001];
+int visited[1001];
 
-int arr[1001];
+queue<int> que;
+
+void bfs()
+{
+    memset(visited, 0, sizeof(visited));
+    que.push(1);
+    visited[1] = 1;
+
+    while (!que.empty())
+    {
+        int f = que.front();
+        que.pop();
+
+        for (int x = 0; x < graph[f].size(); x++)
+            if (!visited[graph[f][x]])
+            {
+                que.push(graph[f][x]);
+                visited[graph[f][x]] = visited[f] + 1;
+            }
+    }
+}
 
 int main()
 {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    cin >> N;
+    cin >> n >> m;
 
-    int inp;
+    int u, v;
 
-    while (N--)
+    while (m--)
     {
-        cin >> inp;
-        que.push(inp);
-    }
-    
-    int num = 1; // 현재 간식을 받을 학생의 번호
-    bool flag = 1;
+        cin >> u >> v;
 
-    while (!que.empty())
-    {
-        int f = que.front();
-
-        // que front에 있는 학생이 간식을 받을 수 있으면
-        if (f == num)
-        {
-            que.pop(); // 주고 보내
-            num++;
-        }
-        // que front에 있는 학생은 못 받는데,
-        else
-        {
-            // stk top에 있는 학생이 받아서 순서가 맞게 되면
-            if (!stk.empty() && stk.top() == num)
-            {
-                stk.pop();
-                num++;
-            }
-            // 애초에 stk.top보다 크고 줄 수도 없으면 분배 불가능
-            else if (!stk.empty() && stk.top() < f)
-            {
-                flag = 0;
-                break;
-            }
-            else
-            {
-                que.pop();
-                stk.push(f);
-            }
-        }
-    }
-    
-    while (!stk.empty())
-    {
-        int t = stk.top();
-
-        if (num == t)
-        {
-            stk.pop();
-            num++;
-        }
-        else
-        {
-            flag = 0;
-            break;
-        }
+        graph[u].push_back(v);
+        graph[v].push_back(u);
     }
 
-    if (flag)
-        cout << "Nice";
-    else
-        cout << "Sad";
+    cin >> q;
 
+    int i, j;
+
+    while (q--)
+    {
+        cin >> i >> j;
+
+        graph[i].push_back(j);
+        graph[j].push_back(i);
+
+        bfs();
+
+        for (int i = 1; i <= n; i++)
+            cout << visited[i] - 1 << ' ';
+
+        cout << '\n';
+    }
 }
